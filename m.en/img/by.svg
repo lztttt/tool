@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2880 1800" style="enable-background:new 0 0 2880 1800;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#005C31;}
+</style>
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0.5" y1="900" x2="2879.5" y2="900">
+		<stop  offset="0.3873" style="stop-color:#D8D8B5"/>
+		<stop  offset="0.5134" style="stop-color:#C5DFBB"/>
+		<stop  offset="1" style="stop-color:#7EFBD1"/>
+	</linearGradient>
+	<rect x="0.5" y="0.5" class="st0" width="1440" height="25600"/>
+	<path class="st1" d="M2879,1v1798H1V1H2879 M2880,0H0v1800h2880V0L2880,0z"/>
+</g>
+</svg>

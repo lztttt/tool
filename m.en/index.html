@@ -12,12 +12,7 @@
 <link rel="stylesheet" href="./data/default-skin.css"> 
 
 <style>
-.pnav{margin-top:30px;text-align:center;line-height:24px; font-size:16px}
-.pnav a{padding:4px}
-.pnav a.cur{background:#007bc4;color:#fff;}
-.demo{width:80%; margin:10px auto}
 
-/*必要样式*/
 .my-gallery {
   width: 100%;
   float: left;
@@ -35,6 +30,17 @@
 .my-gallery figcaption {
   display: none;
 }
+/* "img/blue.svg" */
+        body {
+            background:url(img/by.svg);
+            background-size:100% 100%;
+            background-repeat: no-repeat;
+            background-position: center top;
+            /* 把背景图片固定住 */
+            background-attachment: fixed;
+            color: #fff;
+            font-size: 20px;
+        }
 </style>
 
 <script src="./data/photoswipe.min.js"></script>
@@ -46,8 +52,13 @@
 
 <div id="main">
 	
-	<div class="demo">
-	
+	<div class="1">
+        <style>
+            div{
+               
+                color:rgba(1, 160, 125, 0.835);
+            } 
+        </style>
 		<p style="font-size:16px; margin:20px auto">请点击图片观看大图</p>
 		
 		<div class="my-gallery" data-pswp-uid="1">
