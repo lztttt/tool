@@ -7,6 +7,7 @@
 <link href="./Data/painting.css" rel="stylesheet">
 <script src="./Data/jquery.js" type="text/javascript"></script>
 <script src="./Data/painting.js" type="text/javascript"></script>
+<link rel="stylesheet" href="">
 <link rel="icon" href="https://pic1.zhimg.com/80/v2-d8675c36efa0252b0f1c83ac8773d581_720w.jpg?source=1940ef5c" />
 <script src="https://cdn.bootcdn.net/ajax/libs/valine/1.4.14/Valine.min.js"></script>
 <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
@@ -22,13 +23,15 @@
 <section class="article-content">
 <header class="page-header">
 <div class="text-center">
+    
 <a>
 <h2 class="padding-bot10">资源</h2></a>
 </div>
 </header>
 <article class="article" id="article">
 <p>
-<div style="position: relative; padding: 0% 50%;">
+    
+<div style="position: relative; padding: 0% 60%;">
 </div>
 <h3>在线预览</h3>
 <h2>●英语1600词 共30页</h2>
@@ -37,8 +40,10 @@
 <br>
 <br>
 <h2>●曹刿论战</h2>
-<!-- 评论 -->
 
+</script>
+            
+<!-- 评论 -->
 </article>
 </section>
 </main>
@@ -49,13 +54,36 @@
             el: '#vcomments',
             appId: 'De7eAGzOi8c2bBJPU7Ujq3Tu-MdYXbMMI',
             appKey: 'EzzkgeM9e7VvLG4AMaTMn8Ag',
-            placeholder: '评论区  失效反馈',
+            placeholder: '评论区',
             pageSize: 20,
             lang: 'zh-CN',
         })
     </script>
 </div>
 </div>
+</div>
+<style>
+    .site-footer {
+      width: 100%;
+      margin: 30px 0;
+      font-size: 14px;
+      color: #bbb;
+      position: absolute;
+      bottom: 0;
+      text-align: center;
+    }
+    .site-footer a {
+      color: skyblue;
+    }
+    .site-footer a:hover {
+      color: darkviolet;
+    }</style>
+<div class="site-footer">
+    <div class="site-stats-card shadow-sm">
+        <h5>访问统计</h5>
+        <div id="busuanzi_container_site_uv">
+        </div>
+        </div>
 </div>
 
 </main>
