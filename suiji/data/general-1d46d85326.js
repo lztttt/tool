@@ -1619,26 +1619,26 @@ function loginDialog() {
   }
 }
 function loginRequired(_0x41e320, _0xe0468a) {
-  const _0x4a98f6 = _0x3af976;
-  if (typeof login === _0x4a98f6(0x229, "[eh2")) {
-    if (
-      login[_0x4a98f6(0x256, "I[3f")] ||
-      login[_0x4a98f6(0x1eb, "V!Lb")] === undefined
-    )
-      _0x41e320 && _0x41e320();
-    else {
-      var _0x21a4cb;
-      _0xe0468a && _0xe0468a(),
-        (_0x21a4cb = window[_0x4a98f6(0x438, "UgDs")]) === null ||
-        _0x21a4cb === void 0x0
-          ? void 0x0
-          : _0x21a4cb[_0x4a98f6(0x25a, "QlTW")](),
-        (window[_0x4a98f6(0x254, "D0C]")] = open(
-          _0x4a98f6(0x442, "ScgR") +
-            encodeData({ appname: appName, page: _0x4a98f6(0x12b, "ut%O") })
-        ));
-    }
-  }
+  // const _0x4a98f6 = _0x3af976;
+  // if (typeof login === _0x4a98f6(0x229, "[eh2")) {
+  //   if (
+  //     login[_0x4a98f6(0x256, "I[3f")] ||
+  //     login[_0x4a98f6(0x1eb, "V!Lb")] === undefined
+  //   )
+  //     _0x41e320 && _0x41e320();
+  //   else {
+  //     var _0x21a4cb;
+  //     _0xe0468a && _0xe0468a(),
+  //       (_0x21a4cb = window[_0x4a98f6(0x438, "UgDs")]) === null ||
+  //       _0x21a4cb === void 0x0
+  //         ? void 0x0
+  //         : _0x21a4cb[_0x4a98f6(0x25a, "QlTW")](),
+  //       (window[_0x4a98f6(0x254, "D0C]")] = open(
+  //         _0x4a98f6(0x442, "ScgR") +
+  //           encodeData({ appname: appName, page: _0x4a98f6(0x12b, "ut%O") })
+  //       ));
+  //   }
+  // }
 }
 function openDialog() {
   const _0x2d57a4 = _0x3af976;
