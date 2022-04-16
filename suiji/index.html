@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html
+  lang="zh-CN"
+  class="has-bg-img"
+  style="--background-image: url('https://cdn.jsdelivr.net/gh/lztttt/pic/img2022/123.svg')"
+>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,user-scalable=no,initial-scale=1,viewport-fit=cover"
+    />
+    <title>随机抽号</title>
+    <link
+      rel="preload"
+      href="https://tool.retiehe.com/fonts/mui.ttf"
+      as="font"
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="./data/mui.min.css" />
+    <link
+      rel="stylesheet"
+      href="./data/waves.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./data/general-875b89ba85.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://assets.retiehe.com/rth-legacy-icon-512.png"
+    />
+    <script src="./data/theme-af7fb99047.js"></script>
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body class="random-number">
+    <img
+      id="bg-img"
+      class=""
+      alt=""
+      src="https://cdn.jsdelivr.net/gh/lztttt/pic/img2022/123.svg"
+    />
+    <header class="mui-bar mui-bar-nav">
+      <div
+        id="back-btn"
+        class="mui-icon mui-icon-left-nav mui-pull-left"
+        tabindex="0"
+        role="button"
+        aria-label="返回"
+      ></div>
+      <h1 class="mui-title">随机抽号</h1>
+      <div
+        id="user-btn"
+        class="mui-icon mui-icon-contact mui-pull-right"
+        tabindex="0"
+        role="button"
+        aria-label="用户"
+      ></div>
+    </header>
+    <main>
+      <div id="number" class="number" aria-hidden="true"></div>
+      <button
+        id="select-randomly-btn"
+        type="button"
+        class="mui-btn mui-btn-blue mui-btn-block waves-effect waves-light"
+      >
+        开始抽号
+      </button>
+      <fieldset>
+        <legend id="settings">设置</legend>
+        <div class="width-limit">
+          <div class="input-bg">
+            <div class="mui-input-row">
+              <label id="quantity-label" for="quantity-input">数量</label>
+              <input id="quantity-input" type="number" value="1" />
+            </div>
+            <div class="mui-input-row">
+              <label id="minimum-label" for="minimum-input">最小值</label>
+              <input id="minimum-input" type="number" value="1" />
+            </div>
+            <div class="mui-input-row">
+              <label id="maximum-label" for="maximum-input">最大值</label>
+              <input id="maximum-input" type="number" value="60" />
+            </div>
+            <div class="mui-input-row">
+              <label id="speed-label" for="speed-input">速度</label>
+              <input id="speed-input" type="number" value="100" />
+            </div>
+          </div>
+          <div class="mui-input-row mui-checkbox">
+            <label id="duplicates-label" for="duplicates-switch">重复</label>
+            <input id="duplicates-switch" type="checkbox" checked="checked" />
+          </div>
+          <div class="mui-input-row mui-checkbox">
+            <label id="odd-num-only-label" for="odd-num-only-switch"
+              >仅奇数</label
+            >
+            <input id="odd-num-only-switch" type="checkbox" />
+          </div>
+          <div class="mui-input-row mui-checkbox">
+            <label id="even-num-only-label" for="even-num-only-switch"
+              >仅偶数</label
+            >
+            <input id="even-num-only-switch" type="checkbox" />
+          </div>
+          <div class="mui-input-row mui-checkbox">
+            <label id="show-more-label" for="show-more-switch">显示更多</label>
+            <input id="show-more-switch" type="checkbox" checked="checked" />
+          </div>
+        </div>
+      </fieldset>
+      <div id="history" data-v-app="">
+        <fieldset>
+          <legend>历史记录</legend>
+          <ul class="menu">
+            <li tabindex="0" role="button">添加</li>
+            <li tabindex="0" role="button">清空</li>
+          </ul>
+          <ul class="menu text-like"></ul>
+        </fieldset>
+      </div>
+      <div id="names" data-v-app="">
+        <fieldset>
+         
+      </div>
+    </main>
+    <input id="file-input" type="file" />
+    <script src="./data/i18n-82ed313f28.js"></script>
+    <script src="./data/general-1d46d85326.js"></script>
+    <script src="./data/vue.global.prod.js"></script>
+    <script src="./data/randomnumber-9351063133.js"></script>
+    <script
+      async=""
+      src="./data/waves.min.js"
+    ></script>
+    <div class="mask hidden" tabindex="0" aria-label="关闭弹窗"></div>
+    <img class="hidden" src="./data/a.rth" />
+  </body>
+</html>
