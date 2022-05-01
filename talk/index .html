@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <script src=Valine.min.js></script>
+    <meta charset="utf-8" />
+    <title>comment</title>
+    <style>
+      .background--custom {
+        background: linear-gradient(90deg, #a7d0ff, #ccf8a5, #ffbebd);
+        background-size: 300% 300%;
+        animation: gradient 4s alternate infinite;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+      }
+
+      .main {
+        margin: 1 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        /* 透明背景 */
+        background: rgba(255, 255, 255, 0.637);
+
+        /* 圆角 */
+        border-radius: 10px;
+        color: rgb(0, 0, 0);
+        text-shadow: #96e74d 0 0 10px;
+      }
+      .footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+      }
+      @keyframes gradient {
+        0% {
+          background-position: 0%;
+        }
+
+        100% {
+          background-position: 100%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="background--custom"></div>
+
+    <div class="main">
+      <h1>Talk To Me</h1>
+
+      <div id="vcomments"></div>
+      <script>
+        new Valine({
+          el: "#vcomments",
+          appId: "De7eAGzOi8c2bBJPU7Ujq3Tu-MdYXbMMI",
+          appKey: "EzzkgeM9e7VvLG4AMaTMn8Ag",
+        });
+      </script>
+    </div>
+    <!-- 底栏 -->
+    <footer>
+      <div class="footer">
+          <p>2022   lzt</p>
+      </div>
+  </body>
+</html>
