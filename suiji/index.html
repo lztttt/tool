@@ -5,6 +5,35 @@
   style="--background-image: url('https://cdn.jsdelivr.net/gh/lztttt/pic/img2022/123.svg')"
 >
   <head>
+    <script>
+      function doSomething (obj,evt) {
+       alert(obj.id);
+       var e=(evt)?evt:window.event;
+       if (window.event) {
+        e.cancelBubble=true;     // ie下阻止冒泡
+       } else {
+        //e.preventDefault();
+        e.stopPropagation();     // 其它浏览器下阻止冒泡
+       }
+      }
+      </script>
+      
+<script type="text/javascript"> 
+  function stopDefault( e ) { 
+       if ( e && e.preventDefault ) 
+          e.preventDefault(); 
+      else 
+          window.event.returnValue = false; 
+          
+      return false; 
+  } 
+  window.onbeforeunload = function () {
+
+return confirm('你确定要关闭吗？');
+
+}
+  </script> 
+  
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta
       name="viewport"
