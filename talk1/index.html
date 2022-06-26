@@ -2,8 +2,8 @@
 
 <html lang="en">
   <head>
-    <script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
-  <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"/>
+    <script src="Valine.min.js"></script>
+
     <meta charset="utf-8" />
     <title>comment</title>
     <style>
@@ -65,23 +65,19 @@
     <div class="background--custom"></div>
 
     <div class="main">
-      <h1>闲聊</h1>
-      当前页阅读量为:
-<span class="waline-pageview-count" data-path="/guide/client/count.html" />
+      <h1>问题反馈，功能建议，闲聊</h1>
 
-      <div id="waline"></div>
+      <div id="vcomments"></div>
       <script>
-        Waline.init({
-          el: '#waline',
-          serverURL: 'https://w-ewro19e73-lztttt.vercel.app/',
-           // 设置 emoji 为微博与哔哩哔哩
-           emoji: [
-          '//unpkg.com/@waline/emojis@1.0.1/weibo',
-          '//unpkg.com/@waline/emojis@1.0.1/bilibili',],
-          comment: true, // 评论数统计
-          pageview: true, // 浏览量统计
+        new Valine({
+          el: "#vcomments",
+          appId: "De7eAGzOi8c2bBJPU7Ujq3Tu-MdYXbMMI",
+          appKey: "EzzkgeM9e7VvLG4AMaTMn8Ag",
+          serverURLs: "https://de7eagzo.api.lncldglobal.com",
         });
       </script>
+      <!-- https://de7eagzo.api.lncldglobal.com -->
+    </div>
     <!-- 底栏 -->
     <!-- <footer>
       <div class="footer">
